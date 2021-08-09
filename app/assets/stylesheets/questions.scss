@@ -1,3 +1,25 @@
 // Place all the styles related to the Questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+#reponse {
+  background-color:khaki;
+  margin-top: 20px;
+}
+
+.card{
+  border-left: grey solid;
+  padding-left: 15px;
+}
+
+body {
+  padding-left: 20px;
+}

@@ -1,3 +1,23 @@
+<body>
 <h1>Stupid Coaching</h1>
-<a href="/ask">ask a new question</a>
-<%= @answer %>
+
+<div>
+  <div class="container">
+    <div class='card' id = "question">
+    <%= params[:search] %>
+    <p><em>-You</em></p>
+    </div>
+
+
+    <div class='card' id = "reponse">
+    <%= @answer %>
+    <p><em>-Your Coach</em></p>
+    </div>
+  </div>
+
+  <div>
+  <a href="/ask">ask a new question</a>
+  </div>
+
+</div>
+</body>
